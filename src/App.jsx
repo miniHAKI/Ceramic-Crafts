@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/order-confirmation" element={<OrderConfirmation />} />
       </Routes>
-      {!hideFooterRoutes.includes(location.pathname) &&  <Footer />}
+      {/* {!hideFooterRoutes.includes(location.pathname) &&  <Footer />} */}
  
     </>
   );
